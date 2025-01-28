@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-import os
+#import os
 
 # Configure the Google Generative AI API
 genai.configure(api_key="AIzaSyAaVRtDjAjUd7NpCxM-2Qc696xphpfw35c")  
@@ -20,7 +20,7 @@ def main():
     job_role = st.text_input("Enter a job role:") #input space to enter text
 
     # Define the prompt based on the job role input
-    prompt = f'''What are the skills required for a {job_role}? Also, list the top 10 companies to apply to?
+    prompt = f'''What are the skills required for a {job_role}? Also, list the top 10 companies to apply to?d
     skills: name skills without description.'''
 
     # Generate text based on the prompt and user input
