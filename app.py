@@ -13,7 +13,6 @@ def main():
     # Set the title and description
     st.title("Skills and Companies Recommender") #to set the title for the app
     st.subheader("Developed by Mohsin") #its a subheading
-    st.sidebar.image("odinschool1.jpg") #to place an image on the leftside
     st.write("Enter the job role to get recommendations.") #suggesting an user what needs to be done with this line of code
 
     # Get user input for job role
